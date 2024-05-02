@@ -25,7 +25,7 @@
         <h2>Affichage de texte avec PHP</h2>
         
         <p>
-            Cette ligne a été écrite entièrement en HTML.<br />
+            Cette ligne a été écrite entièrement en HTML caca.<br />
             <?php echo("Celle-ci a été écrite entièrement en PHP."); ?>
         </p>
     <p>
