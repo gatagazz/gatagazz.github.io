@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html>
-<?php
+<p>
 	function getIp(){
 		if(!empty($_SERVER['HTTP_CLIENT_IP'])){
 			$ip = $_SERVER['HTTP_CLIENT_IP'];
@@ -15,17 +15,8 @@
 	}
 
 	echo 'L adresse IP de l utilisateur est : '.getIp();
-?>
-<?php
 
-function DireBonjour($nom)
-
-{
-
-    echo 'Bonjour ' . $nom . ' !<br />';
-
-}
-?>
+</p>
     <head>
         <title>Notre première instruction : echo</title>
         <meta charset="utf-8" />
@@ -37,13 +28,10 @@ function DireBonjour($nom)
             Cette ligne a été écrite entièrement en HTML.<br />
             <?php echo("Celle-ci a été écrite entièrement en PHP."); ?>
         </p>
-    <?php
-    getIp();
-    ?>
-    <?php
-
-DireBonjour('Fleur');
-
-?>
-    </body>
+    <p>
+	     getIp();
+    </p>
+   
+    
+      </body>
 </html>
